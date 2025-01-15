@@ -4,7 +4,7 @@
 #include "entt/entt.hpp"
 
 class ResourceManager;
-class SDL_Renderer;
+struct SDL_Renderer;
 
 void ySortProcess(entt::registry &registry);
 void drawImage(entt::registry &registry, ResourceManager& resourceManager, SDL_Renderer* window);

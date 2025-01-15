@@ -2,7 +2,7 @@
 #define _APPLICATION_H_
 
 #include "entt/entt.hpp"
-#include "SDL2/SDL.h"
+#include "SDL.h"
 #include "utils/ResourceManager.h"
 
 class Application

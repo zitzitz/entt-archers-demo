@@ -5,7 +5,7 @@
 #include "components/MoveFlip.h"
 #include "components/Battle.h"
 #include "components/Solid.h"
-#include "SDL2/SDL.h"
+#include "SDL.h"
 #include <iostream>
 
 void movementUnits(entt::registry &registry, float dt)

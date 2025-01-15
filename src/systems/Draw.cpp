@@ -8,7 +8,7 @@
 #include "components/YSort.h"
 #include "components/HealthBar.h"
 #include "utils/ResourceManager.h"
-#include "SDL2/SDL.h"
+#include "SDL.h"
 #include "math/MathHelper.h"
 
 const int screenOffsetX = (1280 / 2) / 2 - 32 * 20 / 2 + 32 / 2;

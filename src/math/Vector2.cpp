@@ -1,6 +1,10 @@
 #include "Vector2.h"
 #include <cmath>
 
+#ifndef M_PI
+#define M_PI       3.14159265358979323846
+#endif // !M_PI
+
 Vector2::Vector2(float _x, float _y):x(_x), y(_y){}
 Vector2::Vector2(const Vector2& rhs): x(rhs.x), y(rhs.y){}
 Vector2::Vector2(): x(0), y(0){}

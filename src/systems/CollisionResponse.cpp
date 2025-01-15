@@ -3,6 +3,7 @@
 #include "components/Position.h"
 #include "components/Health.h"
 #include "math/Vector2.h"
+#include <optional>
 
 std::optional<std::pair<Vector2, float>> getCircleCollisionPoint(entt::registry &registry, const entt::entity& entityA, const entt::entity& entityB) {
     auto cirlceAPos = Vector2( registry.get<Position>(entityA) );

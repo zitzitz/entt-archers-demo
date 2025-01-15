@@ -2,7 +2,7 @@
 #define _RESOURCE_MANAGER_H_
 
 #include <unordered_map>
-#include "SDL2/SDL.h"
+#include "SDL.h"
 #include "entt/entt.hpp"
 
 class ResourceManager {
