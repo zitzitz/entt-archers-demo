@@ -1,3 +1,5 @@
 build
 .vscode
 .vs
+vsproj/x64
+vsproj/vsproj/x64
