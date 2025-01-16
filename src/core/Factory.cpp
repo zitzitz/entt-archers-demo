@@ -61,7 +61,7 @@ entt::entity makeMapDecoration(entt::registry &registry, const std::string& tile
 entt::entity makeUnitsGenerator(entt::registry &registry, Kind kind)
 {
     float spawnInterval = 0.1;
-    int count = 4;
+    int count = 20;
     float timer = 0.f;
     float positionX = 1;
     float positionY = 1;
