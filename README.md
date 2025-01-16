@@ -11,6 +11,8 @@ cd build
 
 cmake ..
 
+make
+
 ./archers
 
 # Windows build
